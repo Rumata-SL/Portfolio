@@ -1,5 +1,6 @@
 .wrapper {
     height: 100vh;
+    box-shadow: 0px 20px 10px -10px rgba(86, 230, 243, 0.45);
     /*background-color: darkcyan;
     display: flex;
     flex-direction: row;
@@ -37,3 +38,7 @@
     height: 250px;
     border-radius: 50%;
 }
+/*
+.line{
+    color: white;
+}*/

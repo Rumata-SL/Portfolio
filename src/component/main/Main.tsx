@@ -13,6 +13,7 @@ export const Main = () => {
                 </div>
                 <div className={main.photo}><img src={photo} alt="photo" className={main.photologo}/></div>
             </div>
+            {/*<hr className={main.line}/>*/}
         </div>
     );
 };
