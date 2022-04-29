@@ -5,10 +5,12 @@ import {Nav} from "../nav/Nav";
 export const Header = () => {
     return (
         <div className={header.wrapper}>
-            <Nav title={"home"}/>
-            <Nav title={"skils"}/>
-            <Nav title={"works"}/>
-            <Nav title={"contacts"}/>
+            <div className={header.container}>
+                <Nav title={"home"}/>
+                <Nav title={"skils"}/>
+                <Nav title={"works"}/>
+                <Nav title={"contacts"}/>
+            </div>
         </div>
     );
 };

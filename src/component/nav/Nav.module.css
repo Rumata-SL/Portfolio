@@ -1,5 +1,23 @@
 .wrapper{
     box-sizing: border-box;
     color: white;
-    margin-left: 80px;
 }
+.wrapper:first-child{
+    margin-right: auto;
+}
+.link{
+    display: block;
+    box-sizing: border-box;
+    padding: 3px 15px;
+    color: white;
+    text-decoration: none;
+    font-family: "Sitka Text";
+    border-radius: 3px;
+
+}
+.link:hover{
+    color: cyan;
+    background-color: rgba(86, 230, 243, 0.45);
+
+}
+

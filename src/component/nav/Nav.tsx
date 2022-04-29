@@ -9,7 +9,7 @@ export const Nav:FC<NavTypeProps> = (props) => {
     const {title} = props
     return (
         <div className={nav.wrapper}>
-            {title}
+            <a href="" className={nav.link}>{title}</a>
         </div>
     );
 };
