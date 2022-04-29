@@ -1,0 +1,12 @@
+.wrapper{
+    box-sizing: border-box;
+    height: 80px;
+    background-color: rgba(6, 72, 118, 0.88);
+    color: white;
+    padding-left:700px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*justify-content: space-around;*/
+
+}
