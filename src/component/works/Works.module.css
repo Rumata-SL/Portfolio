@@ -1,6 +1,6 @@
 .wrapper {
     height: 100vh;
-    box-shadow: 0 20px 10px -10px rgba(86, 230, 243, 0.45);
+    box-shadow: 0px 20px 10px -10px rgba(86, 230, 243, 0.45);
 }
 .container{
     height: 100%;
@@ -19,6 +19,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    /*flex-wrap: wrap;*/
+
 }
 .header{
     text-align: center;

@@ -11,7 +11,9 @@ export const Main = () => {
                     <h3>I am SERGEY</h3>
                     <p>WEB DEVELOPER</p>
                 </div>
-                <div className={main.photo}><img src={photo} alt="photo" className={main.photologo}/></div>
+                <div className={main.photo}>
+                    <img src={photo} alt="photo" className={main.photologo}/>
+                </div>
             </div>
             {/*<hr className={main.line}/>*/}
         </div>
