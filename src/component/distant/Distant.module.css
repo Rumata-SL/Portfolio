@@ -43,11 +43,22 @@
 
 }
 .link:hover{
-    /*color: cyan;*/
     border: 1px solid rgba(0, 255, 255, 0.67);
     color: rgba(0, 255, 255, 0.67);
-    /*box-shadow: -9px 5px 60px 10px rgba(86, 230, 243, 0.45);*/
 
-    /*background-color: rgba(86, 230, 243, 0.45);*/
-    /*box-shadow: 0px 20px 10px -10px rgba(86, 230, 243, 0.45);*/
+}
+.text{
+    font-size: 2em;
+    color: #FFFFFF;
+    background: #000000;
+    text-shadow: 0 0 15px #FFF, 0 0 20px rgba(0, 255, 255, 0.67),
+    0 0 30px rgba(0, 255, 255, 0.67),
+    0 0 40px rgba(0, 255, 255, 0.67),
+    0 0 55px rgba(0, 255, 255, 0.67),
+    0 0 75px rgba(0, 255, 255, 0.67),
+    2px 2px 7px rgba(206,89,55,0);
+    /*text-shadow: 0 0 5px #FFF, 0 0 10px #FFF,
+    0 0 15px #FFF, 0 0 20px rgba(0, 255, 255, 0.67),
+    0 0 30px rgba(0, 255, 255, 0.67), 0 0 40px rgba(0, 255, 255, 0.67),
+    0 0 55px rgba(0, 255, 255, 0.67), 0 0 75px rgba(0, 255, 255, 0.67);*/
 }
