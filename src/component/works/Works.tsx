@@ -14,6 +14,8 @@ export const Works = () => {
                 <div className={works.elements}>
                     <Work title={"Social network"} description={description}/>
                     <Work title={"Counter"} description={description}/>
+                    <Work title={"Todolist"} description={description}/>
+                    <Work title={"Counter"} description={description}/>
                 </div>
             </div>
         </div>

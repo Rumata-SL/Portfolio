@@ -1,6 +1,6 @@
 .wrapper {
     /*height: 100vh;*/
-    min-height: 80vh;
+    min-height: 100vh;
     box-shadow: 0px 20px 10px -10px rgba(86, 230, 243, 0.45);
     /*background-color: darkcyan;
     display: flex;
@@ -13,7 +13,7 @@
     /*height: 100%;*/
     box-sizing: border-box;
     width: 70%;
-    margin: 50px auto;
+    margin: 20% auto;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -23,23 +23,23 @@
     color: white;
 }
 .text {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     text-align: center;
     /*background-color: cornflowerblue;*/
 }
 
 .photo {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     /*background-color: cornflowerblue;*/
     border-radius: 50%;
     box-shadow: 0 0 35px -10px rgb(84, 226, 230);
 }
 
 .photologo {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
 }
 /*

@@ -15,6 +15,9 @@ export const Skils = () => {
                     <Skil title={"REACT"} description={description}/>
                     <Skil title={"HTML"} description={description}/>
                     <Skil title={"CSS"} description={description}/>
+                    <Skil title={"JS"} description={description}/>
+                    <Skil title={"GIT"} description={description}/>
+                    <Skil title={"JEST"} description={description}/>
                 </div>
             </div>
         </div>

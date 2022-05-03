@@ -14,11 +14,13 @@
     text-decoration: none;
     font-family: "Sitka Text";
     border-radius: 3px;
+    border: 1px solid #000000;
 
 }
 .link:hover{
     /*color: cyan;*/
     border: 1px solid rgba(0, 255, 255, 0.67);
+    color: rgba(0, 255, 255, 0.67);
     /*box-shadow: -9px 5px 60px 10px rgba(86, 230, 243, 0.45);*/
 
     /*background-color: rgba(86, 230, 243, 0.45);*/

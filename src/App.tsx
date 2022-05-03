@@ -4,6 +4,7 @@ import {Header} from "./component/header/Header";
 import {Main} from "./component/main/Main";
 import {Skils} from "./component/skils/Skils";
 import {Works} from "./component/works/Works";
+import {Distant} from "./component/distant/Distant";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Main />
         <Skils/>
         <Works/>
+        <Distant/>
     </div>
   );
 }
