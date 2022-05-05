@@ -17,3 +17,25 @@
     align-items: center;
     color: white;
 }
+/*
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.inputBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+input {
+    !*@include text(red, 14px, 300, 26px, normal);*!
+    border: none;
+    border-bottom: 1px solid red;
+    padding: 5px 0;
+    font-family: "Bell MT";
+    width: 49%;
+}*/
