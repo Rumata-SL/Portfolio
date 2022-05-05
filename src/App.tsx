@@ -6,6 +6,7 @@ import {Skils} from "./component/skils/Skils";
 import {Works} from "./component/works/Works";
 import {Distant} from "./component/distant/Distant";
 import {Contacts} from "./component/contacts/Contacts";
+import {Footer} from "./component/footer/Footer";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Works/>
         <Distant/>
         <Contacts/>
+        <Footer/>
     </div>
   );
 }

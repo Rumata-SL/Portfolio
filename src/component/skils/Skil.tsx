@@ -11,9 +11,10 @@ type SkilTypeProps={
 export const Skil:FC<SkilTypeProps>= ({title,description, logo})=>{
     return(
         <div className={skil.wrapper}>
-            <img src={logo} alt="logo" className={skil.logo}/>
-            <h4>{title}</h4>
-            <span>{description}</span>
+
+                <img src={logo} alt="logo" className={skil.logo}/>
+                <h4>{title}</h4>
+                <span>{description}</span>
         </div>
     )
 }
