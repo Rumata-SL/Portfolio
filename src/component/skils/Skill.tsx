@@ -1,5 +1,5 @@
 import React, {FC} from "react";
-import skil from "./Skil.module.css"
+import skill from "./Skill.module.css"
 
 
 type SkilTypeProps={
@@ -8,11 +8,11 @@ type SkilTypeProps={
     logo:string
 }
 
-export const Skil:FC<SkilTypeProps>= ({title,description, logo})=>{
+export const Skill:FC<SkilTypeProps>= ({title,description, logo})=>{
     return(
-        <div className={skil.wrapper}>
+        <div className={skill.wrapper}>
 
-                <img src={logo} alt="logo" className={skil.logo}/>
+                <img src={logo} alt="logo" className={skill.logo}/>
                 <h4>{title}</h4>
                 <span>{description}</span>
         </div>

@@ -7,7 +7,7 @@ export const Header = () => {
         <div className={header.wrapper}>
             <div className={header.container}>
                 <Nav title={"home"}/>
-                <Nav title={"skils"}/>
+                <Nav title={"skills"}/>
                 <Nav title={"works"}/>
                 <Nav title={"contacts"}/>
             </div>

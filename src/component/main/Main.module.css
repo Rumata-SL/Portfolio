@@ -14,7 +14,6 @@
     box-sizing: border-box;
     width: 70%;
     margin: 10% auto;
-    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -41,6 +40,11 @@
     width: 300px;
     height: 300px;
     border-radius: 50%;
+}
+@media screen and (max-width: 860px) {
+    .container {
+        justify-content: center;
+    }
 }
 /*
 .line{

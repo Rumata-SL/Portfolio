@@ -1,6 +1,6 @@
 .wrapper{
     min-height: 60vh;
-    box-shadow: 0px 20px 10px -10px rgba(86, 230, 243, 0.45);
+    box-shadow: 0 20px 10px -10px rgba(86, 230, 243, 0.45);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,10 +10,50 @@
     height: 100%;
     width: 70%;
     margin: 0 auto;
-    box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content:center;
     align-items: center;
     color: white;
+    /*justify-content: space-between;*/
+    flex-wrap: wrap;
+}
+.containerContacts{
+    /*border: 1px solid rgb(84 226 230);*/
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.titleName{
+    margin-bottom: 30px;
+}
+.social{
+    width: 70px;
+    height: 90px;
+    /*box-shadow: 0 0 35px -10px rgb(84 226 230);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: #722b8a;*/
+}
+.footer{
+    color: white;
+    font-size: 0.5em;
+    margin-top: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .containerContacts {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .social {
+        width: 50px;
+        height: 50px;
+    }
 }

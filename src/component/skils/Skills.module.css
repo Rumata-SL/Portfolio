@@ -24,3 +24,8 @@
     align-items: center;
     flex-wrap: wrap;
 }
+@media screen and (max-width: 789px) {
+    .elements {
+        justify-content: center;
+    }
+}

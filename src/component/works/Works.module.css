@@ -23,3 +23,8 @@
     align-items: center;
     flex-wrap: wrap;
 }
+@media screen and (max-width: 1200px) {
+    .elements {
+        justify-content: center;
+    }
+}
