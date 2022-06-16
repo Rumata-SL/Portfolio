@@ -24,3 +24,18 @@ function App() {
 }
 
 export default App;
+
+/*
+function App() {
+    return (
+        <div className="App">
+            <Header/>
+            <Main />
+            <Skills/>
+            <Works/>
+            <Distant/>
+            <Contacts/>
+            <Footer/>
+        </div>
+    );
+}*/
