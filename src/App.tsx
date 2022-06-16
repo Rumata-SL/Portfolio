@@ -1,24 +1,29 @@
 import React from 'react';
 import './App.css';
-import {Header} from "./component/header/Header";
+import {Navigation, PATH} from "./component/navigation/Navigation";
+import {Navigate, Route, Routes} from "react-router-dom";
+// import {Header} from "./component/header/Header";
 import {Main} from "./component/main/Main";
 import {Skills} from "./component/skils/Skills";
-import {Works} from "./component/works/Works";
-import {Distant} from "./component/distant/Distant";
-import {Contacts} from "./component/contacts/Contacts";
-import {Footer} from "./component/footer/Footer";
+// import {Works} from "./component/works/Works";
+// import {Distant} from "./component/distant/Distant";
+// import {Contacts} from "./component/contacts/Contacts";
+// import {Footer} from "./component/footer/Footer";
 
 
 function App() {
   return (
     <div className="App">
-        <Header/>
-        <Main />
-        <Skills/>
-        <Works/>
-        <Distant/>
-        <Contacts/>
-        <Footer/>
+        <Navigation/>
+
+        <Routes>
+            <Route path={'/'} element={<Navigate to={PATH.MAIN}/>}/>
+            <Route path={PATH.MAIN} element={<Main/>}></Route>
+            <Route path={PATH.SKILLS} element={<Skills/>}></Route>
+
+        </Routes>
+
+
     </div>
   );
 }
