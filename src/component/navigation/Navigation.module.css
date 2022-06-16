@@ -1,12 +1,25 @@
 .wrapper{
+    position: absolute;
     background-color: rgba(53, 177, 139, 0.76);
     padding: 2px;
     box-sizing: border-box;
+    min-width: 300px;
+    bottom: 10px;
 }
 .container{
     list-style-type: none;
     padding-top: 10px;
     padding-left: 40px;
+    /*max-width: 1000px;*/
+    width: 20%;
+    /*height: 100%;*/
+    box-sizing: border-box;
+    height: 50px;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
 }
 a {
     text-decoration: none;

@@ -15,13 +15,14 @@ function App() {
   return (
     <div className="App">
         <Navigation/>
+        <div>
+            <Routes>
+                <Route path={"/"} element={<Navigate to={PATH.MAIN}/>}/>
+                <Route path={PATH.MAIN} element={<Main/>}></Route>
+                <Route path={PATH.SKILLS} element={<Skills/>}></Route>
 
-        <Routes>
-            <Route path={'/'} element={<Navigate to={PATH.MAIN}/>}/>
-            <Route path={PATH.MAIN} element={<Main/>}></Route>
-            <Route path={PATH.SKILLS} element={<Skills/>}></Route>
-
-        </Routes>
+            </Routes>
+        </div>
 
 
     </div>
